@@ -14,11 +14,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Build the stack
-      run: docker-compose up -d
-    - name: Test
-      run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost:5000/
+      - uses: actions/checkout@v1
+      - name: Build the stack
+        run: docker-compose up -d
+      - name: Test
+        run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost:5000/
 ```
 
 You can browse a run for this example [here](https://github.com/peter-evans/docker-compose-actions-workflow/commit/8fb9500661c318028422f3859c2d6e75dee0b9d9/checks).
