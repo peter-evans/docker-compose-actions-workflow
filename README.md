@@ -1,4 +1,5 @@
 # docker-compose-actions-workflow
+[![Actions Status](https://github.com/peter-evans/docker-compose-actions-workflow/workflows/docker-compose-actions-workflow/badge.svg)](https://github.com/peter-evans/docker-compose-actions-workflow/actions)
 
 This is a GitHub Actions workflow example to demonstrate building and testing a multi-container stack using `docker-compose`.
 
