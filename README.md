@@ -28,4 +28,4 @@ For more about testing containers before release see [Smoke Testing](https://git
 
 ## License
 
-MIT License - see the [LICENSE](LICENSE) file for details
+[MIT](LICENSE)
