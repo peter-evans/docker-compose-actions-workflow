@@ -22,7 +22,7 @@ jobs:
         run: docker run --network container:webapp-frontend appropriate/curl -s --retry 10 --retry-connrefused http://localhost:5000/
 ```
 
-You can browse a run for this example [here](https://github.com/peter-evans/docker-compose-actions-workflow/commit/8fb9500661c318028422f3859c2d6e75dee0b9d9/checks).
+You can browse a run for this example [here](https://github.com/peter-evans/docker-compose-actions-workflow/runs/1001756904).
 
 For more about testing containers before release see [Smoke Testing](https://github.com/peter-evans/smoke-testing).
 
