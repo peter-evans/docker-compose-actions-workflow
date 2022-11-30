@@ -1,6 +1,6 @@
 version: '3'
 services:
-  web1:
+  web:
     container_name: webapp-frontend
     build: .
     ports:
